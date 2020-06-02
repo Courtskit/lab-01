@@ -1,0 +1,151 @@
+body {
+background: rgb(200, 200, 219);
+color: rgb(50, 42, 165);
+margin: auto;
+font-size: larger;
+}
+
+header{
+  line-height: 75px;
+  background: rgb(240, 240, 255);
+}
+
+.b{
+  line-height: 150px;
+  background: rgb(220, 220, 255);
+}
+
+.cd{
+  display: block;
+  line-height: 125px;
+}
+
+#c{
+  background: rgb(192, 192, 255);
+}
+
+#d{
+  background: rgb(152, 152, 255);
+}
+
+#e{
+  background: rgb(144, 144, 255);
+}
+
+#f{
+  background: rgb(108, 108, 255);
+}
+
+#g{
+  background: rgb(74, 74, 255);
+}
+
+#h{
+  background: rgb(59, 59, 255);
+}
+
+
+.efgh{
+  margin: auto;
+  width: 480px;
+}
+
+.efgh div{
+  width: 240px;
+  float: left;
+  line-height: 250px;
+  background: rgba(119, 113, 118, 0.4);
+}
+
+.efgh:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+footer{
+  line-height: 80px;
+  background: rgb(41, 41, 255);
+}
+
+@media only screen and (min-width: 768px){
+
+
+body {
+  background:  rgb(219, 200, 209);
+  max-width: 960px;
+  margin: auto;
+  color: rgb(165, 42, 89);
+}
+
+header {
+  line-height: 100px;
+  background: rgb(255, 244, 241);
+}
+
+.b{
+  float: left;
+  width: 200px;
+  line-height: 600px;
+  background: rgb(255, 234, 245);
+}
+
+.b:after{  
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.cd{
+  display: flex;
+  line-height: 200px;
+}
+
+.cd div{
+  width: 380px;
+} 
+
+#c{
+  background: rgb(255, 174, 158);
+}
+
+#d{
+  background: rgb(255, 153, 164);
+}
+
+#e{
+  background: rgb(255, 147, 126);
+}
+
+#f{
+  background: rgb(255, 131, 73);
+}
+
+#g{
+  background: rgb(255, 114, 49);
+}
+
+#h{
+  background: rgb(255, 101, 30);
+}
+
+.efgh{
+  display: flex;
+  width: auto;
+}
+
+.efgh div{
+  width: 190px;
+  line-height: 250px;    
+}
+
+footer{
+  display: flex;
+  line-height: 150px;
+  background: rgb(255, 83, 3);
+}
+
+footer div{
+  width: 760px;
+}
+}
